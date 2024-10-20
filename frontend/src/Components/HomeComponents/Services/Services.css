@@ -1,3 +1,30 @@
 @media (min-width: 320px) and (max-width: 740px) {
-    
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        padding: 0 1.5em;
+    }
+
+    .service-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.2em;
+    }
+    .title-cont {
+        display: flex;
+        width: fit-content;
+    }
+    .title, .service-time {
+        width: fit-content;
+        font-size: 14px;
+        margin: 0 0.3em .7em 0;
+    }
+
+    .service-info {
+        font-size: 13px;
+        color: #1E1E1E;
+        margin-bottom: 1em;
+    }
+
 }
