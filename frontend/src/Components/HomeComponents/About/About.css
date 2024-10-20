@@ -1,0 +1,11 @@
+@media (min-width: 320px) and (max-width: 740px) {
+    .about-container {
+        padding: 0 1.5em;
+    }
+
+    .about-content {
+        font-size: 13px;
+        line-height: 1.4;
+        color: #313131;
+    }
+}

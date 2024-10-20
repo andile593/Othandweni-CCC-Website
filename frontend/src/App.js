@@ -1,14 +1,14 @@
-import "./App.css";
 import Header from "./Components/Header/Header";
-import HeroSection from "./Components/HeroSection/HeroSection";
-import UpcomingEvents from "./Components/UpcomingEvents/UpcomingEvents";
+import Footer from "./Components/Footer/Footer"
+import AppRoutes from "./Routes/AppRoutes"
 
+import "./App.css";
 function App() {
   return (
   <>
     <Header />
-    <HeroSection />
-    <UpcomingEvents />
+      <AppRoutes />
+    <Footer />
   </>
   )
 }
