@@ -3,12 +3,15 @@ import "./Header.css";
 const Header = () => {
   const openSidebar = () => {
     let sideBar = document.getElementsByClassName("menu-links")[0];
+    let body = document.body;
 
     if (sideBar) {
       if (sideBar.style.display === "none" || !sideBar.style.display) {
         sideBar.style.display = "flex";
+        body.style.overflow = "hidden";
       } else {
         sideBar.style.display = "none";
+        body.style.overflow = "auto";
       }
     }
   };
@@ -17,7 +20,7 @@ const Header = () => {
     <div className="header-container">
       <div className="logo-container">
         <div className="logo"></div>
-        <p className="church-name roboto-medium">Othandweni Ethiopian Christians Church </p>
+        <a className="church-name roboto-medium" href="/">Othandweni Ethiopian Christians Church </a>
       </div>
 
       <svg
@@ -32,10 +35,12 @@ const Header = () => {
         <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
       </svg>
       <div className="menu-links">
-        <li className="link roboto-regular">Projects</li>
-        <li className="link roboto-regular">Skills</li>
-        <li className="link roboto-regular">About</li>
-        <li className="link roboto-regular">Contact</li>
+        <a className="link roboto-regular" href="/sermons&teachings">Sermons & Teachings</a>
+        <a className="link roboto-regular" href="#">News</a>
+        <a className="link roboto-regular" href="#">Ministries</a>
+        <a className="link roboto-regular" href="#">Gallery</a>
+        <a className="link roboto-regular" href="#">Donate</a>
+        <a className="link roboto-regular" href="#">Contact</a>
       </div>
      
     </div>
