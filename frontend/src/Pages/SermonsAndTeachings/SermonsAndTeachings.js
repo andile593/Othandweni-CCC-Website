@@ -1,8 +1,10 @@
-import React from 'react'
-
+import HeroSection from '../../Components/SermonsAndTeachingsComponents/HeroSection/HeroSection'
+// import SermonsAndTeachings from '../../Components/HomeComponents/SermonsAndTeachings/SermonsAndTeachings'
 const SermonsAndTeachings = () => {
   return (
-    <div>SermonsAndTeachings</div>
+    <>
+      <HeroSection />
+    </>
   )
 }
 
