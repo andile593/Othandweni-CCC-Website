@@ -36,11 +36,11 @@ const Header = () => {
       </svg>
       <div className="menu-links">
         <a className="link roboto-regular" href="/sermons&teachings">Sermons & Teachings</a>
-        <a className="link roboto-regular" href="#">News</a>
-        <a className="link roboto-regular" href="#">Ministries</a>
-        <a className="link roboto-regular" href="#">Gallery</a>
-        <a className="link roboto-regular" href="#">Donate</a>
-        <a className="link roboto-regular" href="#">Contact</a>
+        <a className="link roboto-regular" href="/news">News</a>
+        <a className="link roboto-regular" href="/ministries">Ministries</a>
+        <a className="link roboto-regular" href="/media">Gallery</a>
+        <a className="link roboto-regular" href="/donate">Donate</a>
+        <a className="link roboto-regular" href="/contact">Contact</a>
       </div>
      
     </div>
