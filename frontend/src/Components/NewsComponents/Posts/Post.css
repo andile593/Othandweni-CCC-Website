@@ -31,11 +31,20 @@
         gap: 0.3em;
         align-items: center;
     }
+
+    .post-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
     .post {
         width: 325px;
-        height: 210px;
+        display: flex;
+        flex-direction: column;
         background-color: #0F2237;
-        padding: 1em;
+        padding: 2em 1.3em;
+        gap: .8em;
     }
 
     .post-title {
@@ -44,5 +53,24 @@
         font-size: 18px;
         margin-bottom: .5em;
     }
+
+    .post-overview {
+        color: #D9D9D9;
+        font-size: 15px;
+        margin-bottom: .5em;
+    }
+
+    .post-cta {
+        width: 107px;
+        height: 37px;
+        background-color: #ffffff;
+        color: #0F2237;
+        border-radius: 18px;
+        font-size: 15px;
+        text-transform: capitalize;
+        /* position: absolute;
+        right: 1.4em; */
+    }
+
 
 }

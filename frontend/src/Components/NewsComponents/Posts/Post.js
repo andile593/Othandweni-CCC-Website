@@ -23,17 +23,17 @@ const Post = () => {
           <h3 className="post-title roboto-bold">
             How Faith Transforms Lives: A Testimony
           </h3>
-          <p className="post-overview roboto-regular">
+          <p className="post-overview roboto-light">
             Read this powerful testimony of how faith brought hope and
             healing...
           </p>
-          <button className="post-cta roboto-medium">Read more</button>
+          <button className="post-cta roboto-bold">Read more</button>
         </div>
         <div className="post">
           <h3 className="post-title roboto-bold">
             Upcoming Church Events for 2024
           </h3>
-          <p className="post-overview roboto-regular">
+          <p className="post-overview roboto-light">
             Get the details on all our exciting events lined up for this year...
           </p>
           <button className="post-cta roboto-medium">Learn more</button>
