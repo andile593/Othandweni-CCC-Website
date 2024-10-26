@@ -4,6 +4,7 @@ import SermonsAndTeachings from '../Pages/SermonsAndTeachings/SermonsAndTeaching
 import News from "../Pages/News/News";
 import Ministry from '../Pages/Ministries/Ministry'
 import Gallery from "../Pages/Gallery/Gallery";
+import Donate from "../Pages/Donate/Donate";
 
 
 const AppRoutes = () => {
@@ -14,7 +15,7 @@ const AppRoutes = () => {
       <Route path="/news" element={<News />} />
       <Route path="/ministries" element={<Ministry />} />
       <Route path="/media" element={<Gallery />} />
-      <Route path="/" element={<Home />} />
+      <Route path="/donate" element={<Donate />} />
     </Routes>
   )
 }
