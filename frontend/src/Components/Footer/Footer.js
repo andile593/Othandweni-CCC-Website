@@ -94,7 +94,7 @@ const Footer = () => {
                 <a className="roboto-regular" href="/about">About Us</a>
               </li>
               <li>
-                <a className="roboto-regular" href="/events">Events</a>
+                <a className="roboto-regular" href="/events">About Us</a>
               </li>
               <li>
                 <a className="roboto-regular" href="/donate">Donate</a>

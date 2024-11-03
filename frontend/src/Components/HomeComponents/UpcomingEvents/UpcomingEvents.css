@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 740px) {
+@media screen and (min-width: 320px) {
     .upe-container {
         width: 100%;
         padding: 0 1.5em 1em;

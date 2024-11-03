@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 740px) {
+@media screen and (min-width: 320px) {
   .hero-container {
     width: 100%;
     }
@@ -44,5 +44,35 @@
     color: #ffffff;
     background-color: #007AFF;
     border-radius: 4px;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+ 
+  .hero-img {
+    height: 300px;
+    font-size: 28px;
+    padding: 3em;
+  }
+
+  .welcome-container {
+    padding: 2em;
+  }
+
+  .welcome-title {
+    font-size: 30px;
+  }
+
+  .welcome-message {
+    font-size: 16px;
+    margin-bottom: 1.2em;
+    line-height: 1.6;
+  }
+
+  .hero-cta {
+    width: 90px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 5px;
   }
 }
