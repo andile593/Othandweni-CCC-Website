@@ -11,6 +11,7 @@ const HeroSection = () => {
         <p className="welcome-message roboto-medium">We're so glad you're here! Whether you're new or visiting online, you're always welcome.Our mission is to share Christ's love, build community, and empower you to live out your faith. Join us as we grow together in faith and service.</p>
         <button className="hero-cta roboto-bold">Join Us</button>
     </div>
+        <div className="hero-image"></div>
    </div>
   )
 }

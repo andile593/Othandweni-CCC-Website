@@ -5,10 +5,12 @@ import "./UpcomingEvents.css";
 import img1 from '../../../Assets/ben-white-W8Qqn1PmQH0-unsplash.jpg';
 
 const UpcomingEvents = () => {
+
+  // use swiper slide per view swiper.js
   return (
     <div className="upe-container">
       <h2 className="section-title roboto-bold">Upcoming Events</h2>
-      <Swiper className="mySwiper">
+      <Swiper className="mySwiper events">
         <SwiperSlide className="event-container">
           <img src={img1} alt="A bible" className="event-image" />
           <div className="event-info">
