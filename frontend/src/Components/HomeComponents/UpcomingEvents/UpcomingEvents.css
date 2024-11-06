@@ -49,5 +49,12 @@
 }
 
 @media screen and (min-width: 740px) {
-    
+    .date, .location {
+        font-size: 14px;
+    }
+
+    .event-title {
+        font-size: 16px;
+    }
+
 }

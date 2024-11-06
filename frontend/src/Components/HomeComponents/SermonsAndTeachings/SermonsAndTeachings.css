@@ -5,11 +5,13 @@
         margin-top: 1em;
         padding: 0 1.5em;
     }
+
     .card-container {
         display: flex;
         flex-direction: column;
-        gap: 2em;
-        height: 640px;
+        gap: 2em;        
+        height: auto;
+        padding-bottom: 4em;
     }
 
     .card {
@@ -18,12 +20,12 @@
     }
 
     .front-card {
-      width: 305px;
-      height: fit-content;  
-      background: #007AFF;
-      padding: 1em 1em 1.4em;
-      position: absolute;
-      z-index: 10;
+        width: 305px;
+        height: fit-content;
+        background: #007AFF;
+        padding: 1em 1em 1.4em;
+        position: absolute;
+        z-index: 10;
     }
 
     .label {
@@ -33,7 +35,7 @@
     }
 
     .card-title {
-        width: 200px ;
+        width: 200px;
         font-size: 22px;
         color: #ffffff;
         margin: .3em 0;
@@ -53,7 +55,7 @@
         align-items: center;
         gap: 1.5em;
     }
-    
+
     .pastor-name {
         font-size: 14px;
         color: #ffffff;
@@ -85,11 +87,23 @@
         top: 25px;
         z-index: 1;
     }
+
     .frcard2 {
         height: 266px;
     }
 
     .bkcard2 {
         height: 269px;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .card-container {
+        flex-direction: unset;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 330px;
     }
 }

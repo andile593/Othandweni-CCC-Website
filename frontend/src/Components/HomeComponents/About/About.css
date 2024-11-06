@@ -9,3 +9,9 @@
         color: #313131;
     }
 }
+
+@media screen and (min-width: 740px) {
+    .about-content {
+        font-size: 16px;
+    }
+}
