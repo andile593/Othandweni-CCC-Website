@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 740px) {
+@media screen and (min-width: 320px) {
     .post-container {
         margin-top: 1em;
         padding: 0 1.5em;
@@ -34,8 +34,9 @@
 
     .post-content {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 1.5em;
+        margin: 0 auto;
     }
 
     .post {
