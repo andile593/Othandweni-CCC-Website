@@ -37,3 +37,9 @@
         font-size: 15px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .services-container {
+        padding: 0 2.5em;
+    }
+}

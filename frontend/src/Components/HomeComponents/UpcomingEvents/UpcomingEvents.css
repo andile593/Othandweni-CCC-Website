@@ -58,3 +58,9 @@
     }
 
 }
+
+@media screen and (min-width: 1024px) {
+    .upe-container {
+        padding: 0 2.5em 1em;
+    }
+}

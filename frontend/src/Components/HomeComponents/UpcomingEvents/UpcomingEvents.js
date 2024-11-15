@@ -10,10 +10,9 @@ const UpcomingEvents = () => {
     <div className="upe-container">
       <h2 className="section-title roboto-bold">Upcoming Events</h2>
       <Swiper
-         breakpoints={{
+        breakpoints={{
           320: { slidesPerView: 1 },
           740: { slidesPerView: 2 },
-          1024: { slidePerView: 3 }  
         }}
         spaceBetween={10}
         className="mySwiper events"

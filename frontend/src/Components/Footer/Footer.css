@@ -50,3 +50,28 @@
   }
 
 }
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    flex-wrap: wrap;
+  }
+
+  .footer-section {
+    padding: 0 20px;
+    width: 20%;
+  }
+
+  .footer-content {
+    display: block !important; 
+  }
+
+  .heading-block svg {
+    display: none; 
+  }
+  
+
+
+
+}

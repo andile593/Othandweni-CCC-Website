@@ -68,6 +68,7 @@
 
 @media screen and (min-width: 740px)  {
     .header-container {
+        height: 70px;
         padding-right: 1em;
     }
     .logo-container {
@@ -96,4 +97,21 @@
 }
  
 
+@media screen and (min-width: 1024px)  {
+    
+    .logo-container {
+        margin-left: 0.8em;
+    }
 
+    .church-name {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-links {
+        right: 4em;
+    }
+}

@@ -59,7 +59,7 @@
   }
 }
 
-@media (min-width: 740px) and (max-width: 1024px) {
+@media screen and (min-width: 740px) {
 
   .hero-container {
     display: flex;
@@ -98,5 +98,17 @@
     height: 40px;
     color: #ffffff;
     border-radius: 5px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 400px;
+    font-size: 32px;
+  }
+
+  .welcome-container {
+    padding: 2.5em;
   }
 }
