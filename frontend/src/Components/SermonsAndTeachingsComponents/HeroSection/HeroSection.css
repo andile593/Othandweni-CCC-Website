@@ -40,3 +40,12 @@
         height: 352px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .sermons-hero {
+      height: 400px;
+      font-size: 32px;
+    }
+  
+    
+  }

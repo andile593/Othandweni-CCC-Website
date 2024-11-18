@@ -112,3 +112,14 @@
     padding: 2.5em;
   }
 }
+
+@media screen and (min-width: 1300px) {
+  .welcome-container {
+    padding: 4.5em;
+  }
+
+  .hero-image {
+    height: 270px;
+  }
+
+}

@@ -138,3 +138,10 @@
         text-transform: uppercase;
     }
 }
+
+
+@media screen and (min-width: 1024px) {
+    .sermons-block-container {
+        padding: 2.5em;
+      } 
+}

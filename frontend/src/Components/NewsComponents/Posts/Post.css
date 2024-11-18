@@ -75,3 +75,9 @@
 
 
 }
+
+@media screen and (min-width: 1024px) {
+    .post-container {
+        padding: 2.5em;
+      } 
+}
