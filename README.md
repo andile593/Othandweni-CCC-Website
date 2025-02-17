@@ -1,6 +1,8 @@
 # Othandweni CCC Website
 ![github img](https://github.com/user-attachments/assets/7b0f0edc-5547-417f-b7c1-6f86669263bb)
 
+Design Link: https://www.figma.com/design/DnNde9yf7Ba74GOCiinJVn/Othandweni-CCC-Website?m=auto&t=IX2kofvY8ML0taXj-1
+
 ## About
 This project is dedicated to creating an accessible and user-friendly website for our church community. Our goal is to share the love and message of Christ through a digital platform that connects members, visitors, and ministries seamlessly.
 
