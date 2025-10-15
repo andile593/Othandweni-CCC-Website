@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px)  {
+    .gallery-hero {
+        width: 100%;
+        height: 248px;
+        background-image: url('../../../Assets/galleryHero.jpg');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-hero-title {
+        color: #ffffff;
+        font-size: 25px;
+        margin-bottom: .5em;
+    }
+
+    .hero-gallery-subheading {
+        width: 282px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 15px;
+        margin-bottom: .5em;
+    }
+
+}

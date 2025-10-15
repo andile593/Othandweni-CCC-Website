@@ -1,0 +1,26 @@
+@media screen and (min-width: 320px) {
+    .donate-container {
+        padding: 1em 1.5em;
+    }
+
+    .donate-text {
+        color: #313131;
+        margin: 0 0 1em;
+    }
+
+    .donate-btn {
+        width: 147px;
+        height: 38px;
+        background-color: #007AFF;
+        color: white;
+        font-size: 16px;
+        border-radius: 19px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .donate-container {
+        padding: 2.5em;
+    }
+}

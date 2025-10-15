@@ -1,0 +1,45 @@
+@media screen and (min-width: 320px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        padding: 0 1.5em;
+    }
+
+    .service-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.2em;
+    }
+    .title-cont {
+        display: flex;
+        width: fit-content;
+    }
+    .title, .service-time {
+        width: fit-content;
+        font-size: 14px;
+        margin: 0 0.3em .7em 0;
+    }
+
+    .service-info {
+        font-size: 13px;
+        color: #1E1E1E;
+        margin-bottom: 1em;
+    }
+
+}
+
+@media screen and (min-width: 740px) {
+    .title, .service-time {
+        font-size: 16px;
+    }
+    .service-info {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .services-container {
+        padding: 0 2.5em;
+    }
+}

@@ -1,0 +1,70 @@
+@media screen and (min-width: 320px) {
+    .contact-container {
+        padding: 1em 1.5em;
+    }
+
+    .contact-title {
+        font-size: 25px;
+        color: #313131;
+        margin: 0 0 .5em;
+    }
+
+    .contact-subheading {
+        color: #1C1B1F;
+        font-size: 13px;
+        margin: 0 0 1.5em;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .fullname, .email, .subject {
+        height: 53px;
+        padding-left: 1em;
+        border: .5px solid #838383;
+        border-radius: 4px;
+        color: #313131;
+        font-size: 13px;
+    }
+
+    .message-container {
+        height: 167px;
+        padding: 1.5em 1em;
+        border: .5px solid #838383;
+        border-radius: 4px;
+        color: #313131;
+        font-size: 13px;
+    }
+
+    .submit-btn {
+        width: 318px;
+        height: 57px;
+        color: white;
+        background-color: #007AFF;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+
+
+}
+@media screen and (min-width: 740px) {
+    .contact-container {
+        padding: 1em 10em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-container {
+        padding: 1em 20em;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .contact-container {
+        padding: 1em 25em;
+    }
+}

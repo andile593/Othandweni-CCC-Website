@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef063301.css",
+    "main.js": "/static/js/main.4973fb9d.js",
+    "static/media/edwin-andrade-6liebVeAfrY-unsplash.jpg": "/static/media/edwin-andrade-6liebVeAfrY-unsplash.4648758c32ac235db275.jpg",
+    "static/media/edward-cisneros-KoKAXLKJwhk-unsplash.jpg": "/static/media/edward-cisneros-KoKAXLKJwhk-unsplash.37a51b8f67413e375ed5.jpg",
+    "static/media/debby-hudson-sgdyBq6kheQ-unsplash.jpg": "/static/media/debby-hudson-sgdyBq6kheQ-unsplash.814c3b470c4290b14d1d.jpg",
+    "static/media/daniel-gutko-Op-UUTQLGtI-unsplash.jpg": "/static/media/daniel-gutko-Op-UUTQLGtI-unsplash.a7d08852a9458dd9ba36.jpg",
+    "static/media/ben-white-W8Qqn1PmQH0-unsplash.jpg": "/static/media/ben-white-W8Qqn1PmQH0-unsplash.929199cf5e864db54f72.jpg",
+    "static/media/galleryHero.jpg": "/static/media/galleryHero.15f7171f0fbd95a6f6eb.jpg",
+    "static/media/NewsHero.jpg": "/static/media/NewsHero.4d9f6595eba4f17b3439.jpg",
+    "static/media/MiniHero.jpg": "/static/media/MiniHero.a20eaa7bd043bc11a285.jpg",
+    "static/media/donatehero.jpg": "/static/media/donatehero.7c93b8d6bb6a0d9e6f6b.jpg",
+    "static/media/business-people-working.jpeg": "/static/media/business-people-working.e6238d586c1a415b7aa5.jpeg",
+    "static/media/silhouette-of-unrecognizable-man-praying-outside.jpeg": "/static/media/silhouette-of-unrecognizable-man-praying-outside.10f7115cbfb9753596f0.jpeg",
+    "index.html": "/index.html",
+    "main.ef063301.css.map": "/static/css/main.ef063301.css.map",
+    "main.4973fb9d.js.map": "/static/js/main.4973fb9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef063301.css",
+    "static/js/main.4973fb9d.js"
+  ]
+}

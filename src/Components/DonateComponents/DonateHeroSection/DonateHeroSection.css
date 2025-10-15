@@ -1,0 +1,39 @@
+@media screen and (min-width: 320px) {
+    .donate-hero {
+        width: 100%;
+        height: 248px;
+        background-image: url('../../../Assets/donatehero.jpg');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .donate-hero-title {
+        color: #ffffff;
+        font-size: 25px;
+        margin-bottom: .5em;
+    }
+
+    .hero-donate-subheading {
+        width: 282px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 15px;
+        margin-bottom: .5em;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .donate-hero {
+        height: 400px;
+      } 
+
+      .donate-hero-title {
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,117 @@
+@media screen and (min-width: 320px) {
+    .header-container {
+        width: 100%;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        width: 22px;
+        height: 22px;
+        background: #D9D9D9;
+        margin: 0 0.8em;
+    }
+
+    .church-name {
+        width: 60%;
+        color: #1C1B1F;
+
+    }
+
+    .menu {
+        margin-right: 0.8em;
+    }
+
+
+    .menu-links {
+        width: 80%;
+        height: 91.8vh;
+        display: none;
+        background: #ededed;
+        flex-direction: column;
+        position: absolute;
+        top: 3.5em;
+        padding: 0 .8em;
+        z-index: 10;
+    }    
+    
+    .link {
+        list-style: none;
+        font-size: 16px;
+        margin: 1em 0;
+        color: #313131;
+    }
+
+    .cta {
+        list-style: none;
+        font-size: 13px;
+    }
+    
+    .cta-container {
+        width: 65px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: .5em;
+    }
+}
+
+@media screen and (min-width: 740px)  {
+    .header-container {
+        height: 70px;
+        padding-right: 1em;
+    }
+    .logo-container {
+        width: 210px;
+    }
+
+    .church-name {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-links {
+        display: flex;
+        flex-direction: row;
+        gap: 0.7em;
+        height: fit-content;
+        background: none;
+        position: relative;
+        top: 0;
+        width: fit-content;
+        padding: 0;
+    }
+}
+ 
+
+@media screen and (min-width: 1024px)  {
+    
+    .logo-container {
+        margin-left: 0.8em;
+    }
+
+    .church-name {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-links {
+        right: 4em;
+    }
+}
